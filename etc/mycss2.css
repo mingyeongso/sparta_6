@@ -1,0 +1,14 @@
+.wrap {
+      width: 900px;
+      margin: auto;
+}
+
+.login-form {
+	margin: 0 auto 50px;
+	width: 440px;
+	padding: 36px;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	
+}
+
