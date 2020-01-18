@@ -1,0 +1,61 @@
+h1 {
+	font-weight: 700;
+}
+
+ul {
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+button.btn-primary {
+	background-color: #0070c9;
+    background: -webkit-gradient(linear,left top,left bottom,from(#42a1ec),to(#0070c9));
+    background: linear-gradient(#42a1ec,#0070c9);
+    border: 1px solid #07c;
+    border-radius: 4px;
+}
+
+button.btn-primary:hover {
+	background-color: #147bcd;
+    background: -webkit-gradient(linear,left top,left bottom,from(#51a9ee),to(#147bcd));
+    background: linear-gradient(#51a9ee,#147bcd);
+    border-color: #1482d0;
+    text-decoration: none;
+}
+
+button.btn-primary:focus {
+	background-color: #147bcd;
+    background: -webkit-gradient(linear,left top,left bottom,from(#51a9ee),to(#147bcd));
+    background: linear-gradient(#51a9ee,#147bcd);
+    border-color: #1482d0;
+    text-decoration: none;
+    box-shadow: 0 0 0 3px rgba(131,192,253,.5);
+    outline: none;
+}
+
+
+.warp {
+	display: flex;
+	flex-direction: row;
+	width: 980px;
+	margin: 120px auto;
+}
+
+.product-img {
+	margin: 25px 20px 0 0;
+}
+
+.product-img-warp {
+	position: fixed;
+    top: 0;
+}
+
+.scroll-stop {
+    position: static;
+}
+
+.product-contents {
+}
