@@ -5,14 +5,14 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="style.css">
-
+	<script src="{{url_for('static',filename='js/script.js')}}"></script>
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/mystyle.css') }}">
 	<title>16형 MacBook Pro - 스페이스 그레이 - Apple (KR)</title>
 </head>
 <body>
 	<div class="warp product row">
 		<div class="product-img col-md-6">
-			<div class="product-img-warp" id="product-img-warp"> 
+			<div class="product-img-warp" id="product-img-warp">
 				<img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/mbp16touch-space-select-201911_GEO_KR?wid=1808&hei=1686&fmt=jpeg&qlt=80&.v=1573165435305" width='410'>
 			</div>
 		</div>
@@ -102,10 +102,22 @@
 				</tr>
 			</thead>
 		  	<tbody id="table-body">
+				<tr>
+					<td>
+						이름
+					</td>
+						<td>
+						수량
+					</td>
+						<td>
+						주소
+					</td>
+					<td>
+						전화번호
+					</td>
+				</tr>
 			</tbody>
 		</table>
 	</div>
-	<script src="input-check.js"></script>
-	<script src="api.js"></script>
 </body>
 </html>

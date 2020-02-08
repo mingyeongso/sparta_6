@@ -49,11 +49,7 @@ button.btn-primary:focus {
 }
 
 .product-img-warp {
-	position: sticky;
-}
-
-.scroll-stop {
-    position: static;
+	position: fixed;
 }
 
 .product-contents {
